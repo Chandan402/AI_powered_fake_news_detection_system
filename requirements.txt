@@ -8,3 +8,4 @@ reportlab
 faiss-cpu
 numpy
 lime
+rapidfuzz
