@@ -3,7 +3,7 @@ import pandas as pd
 import importlib.util
 import os
 
-backend_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Backend.py")
+backend_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "backend.py")
 spec = importlib.util.spec_from_file_location("backend_module", backend_path)
 backend_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(backend_module)
