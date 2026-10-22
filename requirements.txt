@@ -10,3 +10,4 @@ numpy
 lime
 rapidfuzz
 gnews
+sentence-transformers
