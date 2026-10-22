@@ -5,3 +5,6 @@ joblib
 scikit-learn
 plotly
 reportlab
+faiss-cpu
+numpy
+lime
