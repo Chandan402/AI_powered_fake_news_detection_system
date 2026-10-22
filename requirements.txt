@@ -9,3 +9,4 @@ faiss-cpu
 numpy
 lime
 rapidfuzz
+gnews
